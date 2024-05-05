@@ -1,0 +1,53 @@
+name: medicine_reminder_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter_svg: ^2.0.10+1
+  flutter_otp_text_field: ^1.1.0+2
+  get_storage:
+  get_it: ^7.6.7
+  flutter_bloc: ^8.1.4
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.1.0
+  supabase_flutter: ^2.3.4
+  flutter_datetime_picker: ^1.5.1
+  timer_button: ^2.1.1
+  flutter_barcode_scanner: ^2.0.0
+  dash_chat_2: ^0.0.20
+  http: ^1.2.1
+  intl: 0.18.1
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo_2.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - .env
+    - assets/icons/
+  fonts:
+    - family: MarkaziText
+      fonts:
+        - asset: assets/fonts/MarkaziText-VariableFont_wght.ttf
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-VariableFont_slnt,wght.ttf
+         
+
+          
