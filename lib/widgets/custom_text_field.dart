@@ -35,7 +35,7 @@ class TextAuth extends StatelessWidget {
           style: const TextStyle(
             fontFamily: 'Arial',
           ),
-          textAlign: TextAlign.right,
+          textAlign: TextAlign.left,
           cursorColor: green,
           obscureText: isSecure,
           controller: controller,

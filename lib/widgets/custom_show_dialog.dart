@@ -16,7 +16,7 @@ class MedicineDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return SimpleDialog(
       title: const Align(
-          alignment: Alignment.centerRight, child: Text('ilaç alma durumu')),
+          alignment: Alignment.centerLeft, child: Text('ilaç alma durumu')),
       children: [
         buildDialogOption('İlaç alındı', Colors.green, context, 0, medicine),
         buildDialogOption(
@@ -83,7 +83,7 @@ class MedicineDialog extends StatelessWidget {
         children: [
           Text(
             text,
-            textAlign: TextAlign.right,
+            textAlign: TextAlign.left,
           ),
           width16,
           Container(

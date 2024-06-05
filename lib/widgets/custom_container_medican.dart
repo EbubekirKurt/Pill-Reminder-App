@@ -29,7 +29,7 @@ class ContainerMedication extends StatelessWidget {
             child: Container(
               width: context.getWidth(),
               height: context.getHeight() / 9,
-              alignment: Alignment.centerRight,
+              alignment: Alignment.centerLeft,
               margin: const EdgeInsets.symmetric(vertical: 10),
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 18),
               decoration: BoxDecoration(
@@ -115,7 +115,7 @@ class ContainerMedication extends StatelessWidget {
         : Container(
             width: context.getWidth(),
             height: context.getHeight() / 9,
-            alignment: Alignment.centerRight,
+            alignment: Alignment.centerLeft,
             margin: const EdgeInsets.symmetric(vertical: 10),
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
             decoration: BoxDecoration(

@@ -58,7 +58,7 @@ class OTPView extends StatelessWidget {
           body: Padding(
             padding: const EdgeInsets.all(20.0),
             child: Align(
-              alignment: Alignment.centerRight,
+              alignment: Alignment.centerLeft,
               child: Center(
                 child: Column(
                   children: [

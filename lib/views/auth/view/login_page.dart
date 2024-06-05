@@ -93,7 +93,7 @@ class LoginView extends StatelessWidget {
                     child: Column(
                       children: [
                         const Align(
-                          alignment: Alignment.bottomRight,
+                          alignment: Alignment.bottomLeft,
                           child: Text(
                             "E-posta",
                             style: TextStyle(
@@ -110,7 +110,7 @@ class LoginView extends StatelessWidget {
                         ),
                         height26,
                         const Align(
-                          alignment: Alignment.bottomRight,
+                          alignment: Alignment.bottomLeft,
                           child: Text(
                             "Şifre",
                             style: TextStyle(
@@ -127,7 +127,7 @@ class LoginView extends StatelessWidget {
                           controller: passwordController,
                         ),
                         Align(
-                          alignment: Alignment.bottomRight,
+                          alignment: Alignment.bottomLeft,
                           child: TextButton(
                             onPressed: () {
                               context.push(

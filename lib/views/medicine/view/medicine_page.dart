@@ -24,7 +24,7 @@ class MedicineView extends StatelessWidget {
               children: [
                 height20,
                 const Align(
-                  alignment: Alignment.centerRight,
+                  alignment: Alignment.centerLeft,
                   child: Text(
                     "İlaçlarım",
                     style: TextStyle(

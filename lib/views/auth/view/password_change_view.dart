@@ -47,7 +47,7 @@ class ChangePasswordView extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Align(
-                  alignment: Alignment.bottomRight,
+                  alignment: Alignment.bottomLeft,
                   child: Text(
                     "Yeni Şifre",
                     style: TextStyle(
@@ -65,7 +65,7 @@ class ChangePasswordView extends StatelessWidget {
                 ),
                 height20,
                 const Align(
-                  alignment: Alignment.bottomRight,
+                  alignment: Alignment.bottomLeft,
                   child: Text(
                     "Şifreyi Onayla",
                     style: TextStyle(

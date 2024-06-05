@@ -84,7 +84,7 @@ class SignUpView extends StatelessWidget {
                       child: Column(
                         children: [
                           const Align(
-                            alignment: Alignment.bottomRight,
+                            alignment: Alignment.bottomLeft,
                             child: Text(
                               "Kullanıcı Adı",
                               style: TextStyle(
@@ -101,7 +101,7 @@ class SignUpView extends StatelessWidget {
                           ),
                           height26,
                           const Align(
-                            alignment: Alignment.bottomRight,
+                            alignment: Alignment.bottomLeft,
                             child: Text(
                               "E-posta",
                               style: TextStyle(
@@ -118,7 +118,7 @@ class SignUpView extends StatelessWidget {
                           ),
                           height26,
                           const Align(
-                            alignment: Alignment.bottomRight,
+                            alignment: Alignment.bottomLeft,
                             child: Text(
                               "Şifre",
                               style: TextStyle(
